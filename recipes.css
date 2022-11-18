@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(255 217 169 / 48%);
+    background-image: url("images/background-rome.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: lighten;
+    margin: auto;
+    width: 1600px;
+    height: auto;
+}
+
+#title-arrabbiata h1{
+    display: flex;
+    width:400px;
+    margin:30px auto;
+    justify-content: center;
+    color: black;
+    padding: 10px;
+    background-color: rgb(255, 203, 182);
+    border-radius: 10px;
+    position: relative;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: monospace ;
+    text-decoration: none;
+}
+
+#container{
+    display: flex;
+    width: auto;
+    gap: 40px;
+}
+
+.img{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:150px;
+    gap: 40px;
+    width:auto;
+    height: 350px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    /* border: 3px solid darkred; */
+}
+
+.down-img{
+    align-self: flex-end;
+}
+
+.yt-video{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-left: 150px;
+    width:fit-content;
+}
+
+iframe{
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+    /* border: 3px solid darkred; */
+}
+
+.grow{
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover{
+    transform: scale(1.1);
+}
+
+#container-bottom{
+    display:flex;
+    justify-content: center;
+    margin: 25px 150px;
+    gap: 130px;
+    /* width:65vw; */
+}
+
+.ingredients{
+   width:100%;
+   background-color: rgb(255, 203, 182);
+   border-radius: 20px;
+   padding:15px;
+}
+
+.subtitle{
+    font-size: 2em;
+    font-family: monospace;
+}
+
+ul{
+    font-size: 1.1em;
+    font-family: serif;
+}
+
+.prep{
+    background-color:rgb(255, 203, 182);
+    border-radius: 20px;
+    padding:5px 15px;
+    width: auto;
+}
+
+p{
+    font-size: 1.1em;
+    font-family: serif;
+}
+
+
+
+
